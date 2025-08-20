@@ -1,0 +1,34 @@
+/*공통속성*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inner{
+    width: 1300px;
+    margin: auto;
+}
+/*=============================================*/
+header{
+    min-width: 1300px;
+    height: 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+header .inner{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+header .navi{
+    display: flex;
+    gap: 32px;
+}
+header .navi a{
+    color:#191919;
+    font-size: 15px;
+    font-weight: bold;
+}
+header .navi li.on a{
+    color:#10c9c3;
+}
